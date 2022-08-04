@@ -81,7 +81,7 @@ type User struct {
 	ExternalID           *int32                 `json:"external_id,omitempty"`
 	ID                   *int32                 `json:"id,omitempty"`
 	CustomAttributes     map[string]interface{} `json:"custom_attributes,omitempty"`
-	RoleIds              *[]int                 `json:"role_ids,omitempty"`
+	RoleIds              []*int                 `json:"role_ids,omitempty"`
 }
 
 // UserApp is the contract for a users app.

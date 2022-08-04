@@ -11,3 +11,5 @@ require (
 	github.com/stretchr/testify v1.4.0
 	golang.org/x/image v0.0.0-20200430140353-33d19683fad8 // indirect
 )
+
+replace github.com/onelogin/onelogin-go-sdk => github.com/matt9mg/onelogin-go-sdk develop

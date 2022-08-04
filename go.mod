@@ -1,4 +1,4 @@
-module github.com/matt9mg/onelogin-go-sdk
+module github.com/onelogin/onelogin-go-sdk
 
 go 1.12
 
